@@ -1,0 +1,19 @@
+# kasiAIhub
+
+> Practical AI business systems training for South African community and small businesses — sales-first, hands-on, and built around working systems, not notes.
+
+kasiAIhub runs the Entrepreneur AI Journey: a practical, hands-on programme where entrepreneurs build real business systems with AI tools such as Claude, Gemini, ChatGPT and Lovable. Session 1 (Think & Plan) produces the Customer Pipeline Starter — a clearer offer, an ideal-customer profile, prospect starting points and a follow-up rhythm. Session 2 (Build & Create) delivers the Customer Conversion System, and Session 3 (Brand & Grow) the Market Visibility Engine. An optional advanced Session 4 sets up a Supervised Digital Team with approval gates. Classes are small (up to 8 learners), run Monday to Friday, 9am–3pm, in Gauteng. Sessions are R1,500 each, the 3-session Core Journey bundle is R4,000, and Session 4 is R4,500.
+
+## Pages
+
+- [Home](/): Overview of the Entrepreneur AI Journey, the four sessions, pricing from R1,500, and enrolment.
+- [About](/about): Who kasiAIhub is and why it exists.
+- [Entrepreneur AI Journey](/entrepreneur-ai-journey): The full programme — sessions, outcomes, pricing and how enrolment works.
+- [Business Check](/diagnostic): A free 4-minute diagnostic that shows which business system you need most.
+- [Session 1: Think & Plan](/sessions/think-and-plan): Build your Customer Pipeline Starter with Claude and Gemini. R1,500.
+- [Session 2: Build & Create](/sessions/build-and-create): Build your Customer Conversion System with Claude and Lovable. R1,500.
+- [Session 3: Brand & Grow](/sessions/brand-and-grow): Build your Market Visibility Engine with ChatGPT and Claude. R1,500.
+- [Blog](/blog): Practical guides on AI for small and community businesses in South Africa.
+- [Resources](/resources): Tools, guides and materials for entrepreneurs.
+- [FAQ](/faq): Answers about sessions, pricing, scheduling and support.
+- [Community Study](/township-study): Research into how community businesses operate and adopt AI.

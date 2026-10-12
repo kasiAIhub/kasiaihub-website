@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789843322326,
+      "tag": "0000_enrolment_location_day_availability",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789844182525,
+      "tag": "0001_add_enrolment_preferred_day",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1790588802489,
+      "tag": "0002_atomic_ai_opening_claim",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1790746076779,
+      "tag": "0003_ai_opening_fail_closed_and_claim_log",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1791565423753,
+      "tag": "0004_kasi_move_waitlist",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1791569526032,
+      "tag": "0005_ai_report_rate_limits",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1791571145888,
+      "tag": "0006_waitlist_headache",
+      "breakpoints": true
+    }
+  ]
+}

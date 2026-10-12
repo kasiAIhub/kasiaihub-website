@@ -1,0 +1,2 @@
+ALTER TABLE public.kasi_move_waitlist ADD COLUMN biggest_headache text;
+ALTER TABLE public.kasi_move_waitlist ADD CONSTRAINT kasi_move_waitlist_headache_len CHECK (biggest_headache IS NULL OR length(biggest_headache) <= 300);

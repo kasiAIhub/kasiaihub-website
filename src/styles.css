@@ -2781,3 +2781,23 @@ select.kasi-input { appearance: none; }
 .kasi-button-purple:focus-visible {
   filter: brightness(0.9);
 }
+
+/* Kasi Move vendor onboarding form */
+.move-waitlist-hint { display: block; color: var(--move-muted); font-size: 13px; line-height: 1.45; }
+.move-waitlist-section { margin-top: 36px; }
+.move-waitlist-textarea { height: auto; min-height: 140px; resize: vertical; }
+.move-waitlist-success-sub { margin: 0; max-width: 32ch; color: var(--move-foreground); font-size: 17px; line-height: 1.5; }
+.move-wa-button { display: block; width: 100%; max-width: 340px; height: 52px; line-height: 52px; text-align: center; border-radius: 12px; background: #25D366; color: #062b16; font-size: 16px; font-weight: 700; text-decoration: none; }
+.move-wa-button:hover { background: #1fbf5c; }
+.move-hours-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 44px; }
+.move-hours-day { display: flex; align-items: center; gap: 10px; color: var(--move-foreground); font-size: 16px; font-weight: 600; }
+.move-hours-day input { width: 20px; height: 20px; accent-color: var(--move-brand); }
+.move-hours-times { display: flex; align-items: center; gap: 8px; }
+.move-hours-time { width: 110px; height: 44px; padding: 8px 10px; }
+.move-hours-to { color: var(--move-muted); font-size: 14px; }
+.move-hours-closed { color: var(--move-muted); font-size: 14px; }
+.move-choice-row { display: flex; gap: 16px; }
+.move-choice-col { display: grid; gap: 10px; }
+.move-choice { display: flex; align-items: flex-start; gap: 10px; color: var(--move-foreground); font-size: 16px; }
+.move-choice input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--move-brand); flex-shrink: 0; }
+.move-consent-row { border: 1px solid var(--move-border); border-radius: 12px; padding: 14px; background: var(--move-input); font-size: 14px; line-height: 1.55; }

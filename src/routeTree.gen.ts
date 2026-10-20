@@ -21,6 +21,7 @@ import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ResourcesRouteImport } from './routes/resources'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as TownshipStudyRouteImport } from './routes/township-study'
+import { Route as AdminVendorFormsRouteImport } from './routes/admin_.vendor-forms'
 import { Route as AdminWaitlistRouteImport } from './routes/admin_.waitlist'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
 import { Route as BlogAiAdoptionTownshipEntrepreneursSouthAfrica2026RouteImport } from './routes/blog/ai-adoption-township-entrepreneurs-south-africa-2026'
@@ -126,6 +127,11 @@ const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
 const TownshipStudyRoute = TownshipStudyRouteImport.update({
   id: '/township-study',
   path: '/township-study',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdminVendorFormsRoute = AdminVendorFormsRouteImport.update({
+  id: '/admin_/vendor-forms',
+  path: '/admin/vendor-forms',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AdminWaitlistRoute = AdminWaitlistRouteImport.update({
@@ -403,6 +409,7 @@ export interface FileRoutesByFullPath {
   '/resources': typeof ResourcesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/township-study': typeof TownshipStudyRoute
+  '/admin/vendor-forms': typeof AdminVendorFormsRoute
   '/admin/waitlist': typeof AdminWaitlistRoute
   '/blog/ai-adoption-township-entrepreneurs-south-africa-2026': typeof BlogAiAdoptionTownshipEntrepreneursSouthAfrica2026Route
   '/blog/ai-agents-township-business-south-africa': typeof BlogAiAgentsTownshipBusinessSouthAfricaRoute
@@ -463,6 +470,7 @@ export interface FileRoutesByTo {
   '/resources': typeof ResourcesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/township-study': typeof TownshipStudyRoute
+  '/admin/vendor-forms': typeof AdminVendorFormsRoute
   '/admin/waitlist': typeof AdminWaitlistRoute
   '/blog/ai-adoption-township-entrepreneurs-south-africa-2026': typeof BlogAiAdoptionTownshipEntrepreneursSouthAfrica2026Route
   '/blog/ai-agents-township-business-south-africa': typeof BlogAiAgentsTownshipBusinessSouthAfricaRoute
@@ -524,6 +532,7 @@ export interface FileRoutesById {
   '/resources': typeof ResourcesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/township-study': typeof TownshipStudyRoute
+  '/admin_/vendor-forms': typeof AdminVendorFormsRoute
   '/admin_/waitlist': typeof AdminWaitlistRoute
   '/blog/ai-adoption-township-entrepreneurs-south-africa-2026': typeof BlogAiAdoptionTownshipEntrepreneursSouthAfrica2026Route
   '/blog/ai-agents-township-business-south-africa': typeof BlogAiAgentsTownshipBusinessSouthAfricaRoute
@@ -586,6 +595,7 @@ export interface FileRouteTypes {
     | '/resources'
     | '/sitemap.xml'
     | '/township-study'
+    | '/admin/vendor-forms'
     | '/admin/waitlist'
     | '/blog/ai-adoption-township-entrepreneurs-south-africa-2026'
     | '/blog/ai-agents-township-business-south-africa'
@@ -646,6 +656,7 @@ export interface FileRouteTypes {
     | '/resources'
     | '/sitemap.xml'
     | '/township-study'
+    | '/admin/vendor-forms'
     | '/admin/waitlist'
     | '/blog/ai-adoption-township-entrepreneurs-south-africa-2026'
     | '/blog/ai-agents-township-business-south-africa'
@@ -706,6 +717,7 @@ export interface FileRouteTypes {
     | '/resources'
     | '/sitemap.xml'
     | '/township-study'
+    | '/admin_/vendor-forms'
     | '/admin_/waitlist'
     | '/blog/ai-adoption-township-entrepreneurs-south-africa-2026'
     | '/blog/ai-agents-township-business-south-africa'
@@ -767,6 +779,7 @@ export interface RootRouteChildren {
   ResourcesRoute: typeof ResourcesRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TownshipStudyRoute: typeof TownshipStudyRoute
+  AdminVendorFormsRoute: typeof AdminVendorFormsRoute
   AdminWaitlistRoute: typeof AdminWaitlistRoute
   BlogAiAdoptionTownshipEntrepreneursSouthAfrica2026Route: typeof BlogAiAdoptionTownshipEntrepreneursSouthAfrica2026Route
   BlogAiAgentsTownshipBusinessSouthAfricaRoute: typeof BlogAiAgentsTownshipBusinessSouthAfricaRoute
@@ -899,6 +912,13 @@ declare module '@tanstack/react-router' {
       path: '/township-study'
       fullPath: '/township-study'
       preLoaderRoute: typeof TownshipStudyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/admin_/vendor-forms': {
+      id: '/admin_/vendor-forms'
+      path: '/admin/vendor-forms'
+      fullPath: '/admin/vendor-forms'
+      preLoaderRoute: typeof AdminVendorFormsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/admin_/waitlist': {
@@ -1239,6 +1259,7 @@ const rootRouteChildren: RootRouteChildren = {
   ResourcesRoute: ResourcesRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TownshipStudyRoute: TownshipStudyRoute,
+  AdminVendorFormsRoute: AdminVendorFormsRoute,
   AdminWaitlistRoute: AdminWaitlistRoute,
   BlogAiAdoptionTownshipEntrepreneursSouthAfrica2026Route:
     BlogAiAdoptionTownshipEntrepreneursSouthAfrica2026Route,

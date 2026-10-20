@@ -239,6 +239,75 @@ export type Database = {
         }
         Relationships: []
       }
+      kasi_move_vendor_intake: {
+        Row: {
+          built: boolean
+          business_name: string
+          collects: boolean
+          consent: boolean
+          created_at: string
+          delivers: boolean
+          delivery_areas: string | null
+          first_special: string | null
+          id: string
+          menu_text: string
+          opening_hours: Json
+          owner_name: string
+          pay_card: boolean
+          pay_cash: boolean
+          pay_eft: boolean
+          rider_name: string | null
+          rider_whatsapp: string | null
+          street_area: string
+          town: string
+          whatsapp_number: string
+        }
+        Insert: {
+          built?: boolean
+          business_name: string
+          collects?: boolean
+          consent: boolean
+          created_at?: string
+          delivers?: boolean
+          delivery_areas?: string | null
+          first_special?: string | null
+          id?: string
+          menu_text: string
+          opening_hours: Json
+          owner_name: string
+          pay_card?: boolean
+          pay_cash?: boolean
+          pay_eft?: boolean
+          rider_name?: string | null
+          rider_whatsapp?: string | null
+          street_area: string
+          town: string
+          whatsapp_number: string
+        }
+        Update: {
+          built?: boolean
+          business_name?: string
+          collects?: boolean
+          consent?: boolean
+          created_at?: string
+          delivers?: boolean
+          delivery_areas?: string | null
+          first_special?: string | null
+          id?: string
+          menu_text?: string
+          opening_hours?: Json
+          owner_name?: string
+          pay_card?: boolean
+          pay_cash?: boolean
+          pay_eft?: boolean
+          rider_name?: string | null
+          rider_whatsapp?: string | null
+          street_area?: string
+          town?: string
+          whatsapp_number?: string
+        }
+        Relationships: []
+      }
       township_study_responses: {
         Row: {
           answers: Json

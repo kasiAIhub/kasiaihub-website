@@ -75,6 +75,7 @@ export function AdminNav() {
         <NavLink to="/admin/diagnostics" label="Diagnostics" />
         <NavLink to="/admin/township-study" label="Community Study" />
         <NavLink to="/admin/waitlist" label="Waitlist" />
+        <NavLink to="/admin/vendor-forms" label="Vendor forms" />
         <button
           onClick={signOut}
           style={{

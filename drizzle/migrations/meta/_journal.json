@@ -50,6 +50,13 @@
       "when": 1791571145888,
       "tag": "0006_waitlist_headache",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1792485278408,
+      "tag": "0007_kasi_move_vendor_intake",
+      "breakpoints": true
     }
   ]
 }

@@ -612,15 +612,15 @@ function Index() {
                 K
               </span>
               <div className="kasi-kasimove-copy">
-                <p className="kasi-kasimove-title">Food vendors: Kasi Move is coming.</p>
-                <p className="kasi-kasimove-sub">Join the waitlist and be first in line.</p>
+                <p className="kasi-kasimove-title">Food vendors: Kasi Move is here.</p>
+                <p className="kasi-kasimove-sub">Complete the onboarding form to set up your stall.</p>
               </div>
             </div>
             <Link
               to="/kasi-move"
               className="kasi-button kasi-button-secondary kasi-kasimove-cta"
             >
-              Join the waitlist
+              Set up your stall
             </Link>
           </div>
         </div>
